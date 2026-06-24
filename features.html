@@ -5,13 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- SEO Meta Tags -->
-  <title>App Features — MEDNEET | Active Recall App for NCERT Biology, Chemistry & Physics</title>
-  <meta name="description" content="Explore every feature in MEDNEET: SAGE Biology, Terracotta Chemistry reaction mechanisms, Sky Physics formulas tracker, Focus session timer, and dynamic weak topics analytics.">
-  <meta name="keywords" content="NEET biology flashcards, inorganic chemistry tricks, NEET organic reactions, physical chemistry formulas, spaced repetition algorithms, NEET mock tests analytics">
+  <title>App Features & Page Walkthrough — MEDNEET | Stressed Student Support</title>
+  <meta name="description" content="Explore every page and feature of MEDNEET with real screenshots. Learn about SAGE Biology flashcards, Terracotta Chemistry reaction maps, and Sky Physics formula drills.">
+  <meta name="keywords" content="NEET biology flashcards, NCERT line by line biology, chemistry exception busters, physics formula drills, NEET preparation helper">
   <link rel="canonical" href="https://notesmedicose.github.io/MEDNEET_SUPPORT/features.html">
 
   <link rel="icon" type="image/png" href="assets/icon.png">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    .feature-page-card {
+      margin-bottom: 4rem;
+    }
+    .feature-img-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .feature-img-wrapper img {
+      width: 100%;
+      max-width: 320px;
+      border-radius: 16px;
+      border: 1px solid var(--border-color);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4), 0 0 20px rgba(139, 92, 246, 0.15);
+      transition: var(--transition-smooth);
+    }
+    .feature-img-wrapper img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.5), 0 0 30px rgba(139, 92, 246, 0.35);
+    }
+    .feature-tag-pill {
+      background: rgba(6, 182, 212, 0.1);
+      border: 1px solid rgba(6, 182, 212, 0.2);
+      color: var(--accent-secondary);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: inline-block;
+      margin-bottom: 0.75rem;
+    }
+  </style>
 </head>
 <body>
 
@@ -38,126 +72,177 @@
 
   <!-- Title Header -->
   <header style="padding-top: 140px; padding-bottom: 2rem;" class="text-center container">
-    <div class="hero-badge" id="badge-features">🔧 HOW IT WORKS</div>
-    <h1 style="font-size: 3rem; margin-bottom: 1rem;">Under the Hood of MEDNEET</h1>
+    <div class="hero-badge" id="badge-features">📸 REAL SCREENSHOT WALKTHROUGH</div>
+    <h1 style="font-size: 3rem; margin-bottom: 1rem;">Take a Tour of MEDNEET</h1>
     <p style="max-width: 600px; margin: 0 auto; font-size: 1.1rem; color: var(--text-secondary);">
-      We didn't just dump 27,000 questions in a spreadsheet. We designed highly optimized modules to address the biggest pain points of cracking NEET UG.
+      NEET prep is tough, so we made our application interface direct and simple. Here is a walkthrough of every screen and feature with real screenshots.
     </p>
   </header>
 
-  <!-- Showcase section for SAGE Biology -->
-  <section class="feature-showcase">
-    <div class="container grid-2">
+  <main class="container" style="padding-top: 2rem;">
+
+    <!-- 1. DASHBOARD -->
+    <section class="grid-2 feature-page-card" id="page-dashboard">
       <div class="showcase-content">
-        <div class="showcase-tag" style="color: #4ade80;">🩺 MODULE 01</div>
-        <h3>SAGE Biology: <span class="showcase-accent" style="color: #4ade80;">NCERT Line-by-Line</span></h3>
-        <p>
-          NEET Biology is 100% NCERT. If you miss a single line in a diagram or a summary, say goodbye to a perfect 360/360. SAGE Biology breaks down every single paragraph in NCERT into active-recall questions.
+        <div class="feature-tag-pill">SCREEN 01</div>
+        <h3>The Study Dashboard</h3>
+        <p style="margin-bottom: 1.5rem;">
+          Your main cockpit when you open the app. We designed it to keep you focused on your daily targets without cluttering your mind.
         </p>
-        <ul class="showcase-list">
-          <li><strong>Line-by-line verification:</strong> Questions are extracted directly from NCERT textbook sentences so you know the book by heart.</li>
-          <li><strong>Image Hotspots:</strong> Visual flashcards targeting labelings in complicated diagrams like the Nitrogen Cycle and Human Heart.</li>
-          <li><strong>Coaching Killers:</strong> Specifically designed to help you crush assertion-reasoning questions that trip up even the top rankers.</li>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Daily Streaks:</strong> Keeps track of how many consecutive days you reviewed. Maintaining a streak is a great way to stay regular!</li>
+          <li><strong>Daily Goal Progress:</strong> A visual tracker showing how close you are to your daily target reviews (e.g. 20 cards).</li>
+          <li><strong>Subject Selectors:</strong> Quick entry points into Biology, Chemistry, or Physics modules.</li>
         </ul>
       </div>
-      <div class="showcase-visual">
-        <div class="glass-panel" style="text-align: center; border-color: rgba(74, 222, 128, 0.2);">
-          <span style="font-size: 5rem;">🧬</span>
-          <h4 style="font-size: 1.5rem; margin-top: 1.5rem; color: #4ade80;">10,000+ Flashcards</h4>
-          <p style="margin-top: 0.5rem;">Covering both Class 11 and 12 Biology syllabi. Every cell, cycle, and family accounted for.</p>
-        </div>
+      <div class="feature-img-wrapper">
+        <img src="assets/dashboard.png" alt="MEDNEET Study Dashboard Page Screenshot">
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Showcase section for Terracotta Chemistry -->
-  <section class="feature-showcase" style="background: rgba(255,255,255,0.01);">
-    <div class="container grid-2">
-      <div class="showcase-visual">
-        <div class="glass-panel" style="text-align: center; border-color: rgba(248, 113, 113, 0.2);">
-          <span style="font-size: 5rem;">🧪</span>
-          <h4 style="font-size: 1.5rem; margin-top: 1.5rem; color: #f87171;">Reactants & Trends</h4>
-          <p style="margin-top: 0.5rem;">Organic reactions, reagents, naming mechanisms, and Periodic Table Trends.</p>
-        </div>
+    <!-- 2. FLASHCARDS LOBBY -->
+    <section class="grid-2 feature-page-card" id="page-lobby">
+      <div class="feature-img-wrapper">
+        <img src="assets/flashcards_lobby.png" alt="MEDNEET Flashcards Lobby Page Screenshot">
       </div>
       <div class="showcase-content">
-        <div class="showcase-tag" style="color: #f87171;">🔥 MODULE 02</div>
-        <h3>Terracotta Chemistry: <span class="showcase-accent" style="color: #f87171;">Mechanisms & Formulas</span></h3>
-        <p>
-          Chemistry is a mess of contradictions (looking at you, inorganic exceptions). Terracotta Chemistry organizes organic naming reactions, inorganic electronic trends, and physical chemistry formulas into easily digestible recall sequences.
+        <div class="feature-tag-pill" style="color: var(--accent-primary); background: rgba(139, 92, 246, 0.1); border-color: rgba(139, 92, 246, 0.2);">SCREEN 02</div>
+        <h3>Flashcards Lobby</h3>
+        <p style="margin-bottom: 1.5rem;">
+          The lobby lets you choose which subject you want to review. It also displays helpful card metrics.
         </p>
-        <ul class="showcase-list">
-          <li><strong>Organic Reaction Builder:</strong> Flashcards testing reactants, intermediates, and final products of key reactions.</li>
-          <li><strong>Exception Busters:</strong> Custom cards addressing every weird exception in Inorganic Chemistry (Inert pair effect, electron gain enthalpy trends, etc.).</li>
-          <li><strong>Physical Chemistry Checklist:</strong> Immediate numerical formula recalls (thermodynamics, electrochemistry, chemical kinetics).</li>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Chapter Filters:</strong> Select a specific chapter (like Animal Kingdom or Electrostatics) or review the entire subject at once.</li>
+          <li><strong>Memory Stats:</strong> Shows the total number of cards available, how many are new, and how many are due under spacing guidelines.</li>
+          <li><strong>Study Modes:</strong> Choose "Review Due" to revise cards that are ready, or choose "New Cards" to add fresh concepts.</li>
         </ul>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Showcase section for Sky Physics -->
-  <section class="feature-showcase">
-    <div class="container grid-2">
+    <!-- 3. STUDY VIEW - QUESTION -->
+    <section class="grid-2 feature-page-card" id="page-study-question">
       <div class="showcase-content">
-        <div class="showcase-tag" style="color: #60a5fa;">⚡ MODULE 03</div>
-        <h3>Sky Physics: <span class="showcase-accent" style="color: #60a5fa;">Formulas at Speed</span></h3>
-        <p>
-          Physics in NEET is not about complex calculus; it's about speed and direct formula application. If you have to derive a formula in the exam hall, you have already run out of time. Sky Physics drills the formulas into your brain.
+        <div class="feature-tag-pill" style="color: #4ade80; background: rgba(74, 222, 128, 0.1); border-color: rgba(74, 222, 128, 0.2);">SCREEN 03</div>
+        <h3>Study Core: <span style="color: #4ade80;">Question Card</span></h3>
+        <p style="margin-bottom: 1.5rem;">
+          This is where active recall happens. Instead of passively reading textbooks, you are prompted with direct NCERT line-by-line questions.
         </p>
-        <ul class="showcase-list">
-          <li><strong>Formula Recall:</strong> Rapid-fire flashcards to check if you remember formulas for rotational mechanics, kinematics, and electromagnetism.</li>
-          <li><strong>Direct Applications:</strong> Direct MCQ application questions testing whether you can substitute values under high time pressure.</li>
-          <li><strong>Dimension & Unit Checkers:</strong> Fast checks on units and dimensions to eliminate option choices instantly.</li>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Clear Questions:</strong> Sentences built directly from your textbook, focusing on high-yield exam topics.</li>
+          <li><strong>No Clutter:</strong> Minimalist glassmorphic layout to keep your eyes comfortable and distractions low.</li>
+          <li><strong>Self-testing:</strong> Read the question, try to recall the answer in your head, then press the Spacebar or click the card to flip it.</li>
         </ul>
       </div>
-      <div class="showcase-visual">
-        <div class="glass-panel" style="text-align: center; border-color: rgba(96, 165, 250, 0.2);">
-          <span style="font-size: 5rem;">📐</span>
-          <h4 style="font-size: 1.5rem; margin-top: 1.5rem; color: #60a5fa;">High-Velocity Drills</h4>
-          <p style="margin-top: 0.5rem;">Solve physics questions in less than 45 seconds using direct-recall physics tricks.</p>
-        </div>
+      <div class="feature-img-wrapper">
+        <img src="assets/study_question.png" alt="MEDNEET Active Study Question Card Screenshot">
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Gamified Streak & Heatmap details -->
-  <section class="feature-section" style="background: rgba(255,255,255,0.015);">
-    <div class="container">
-      <div class="section-header text-center">
-        <h2>Consistency Tools & Weakness Heatmaps</h2>
-        <p>Because knowing what you are bad at is the first step to scoring 650+.</p>
+    <!-- 4. STUDY VIEW - ANSWER -->
+    <section class="grid-2 feature-page-card" id="page-study-answer">
+      <div class="feature-img-wrapper">
+        <img src="assets/study_answer.png" alt="MEDNEET Active Study Answer Explanation Screenshot">
       </div>
-
-      <div class="grid-3">
-        <!-- Card 1 -->
-        <div class="glass-panel">
-          <h4 style="font-size: 1.25rem; margin-bottom: 0.75rem; color: var(--accent-accent);">🔥 Daily Streak Saver</h4>
-          <p>Streaks force you to open the app and review at least 5 cards a day. It doesn't sound like much, but compound interest is a powerful thing.</p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="glass-panel">
-          <h4 style="font-size: 1.25rem; margin-bottom: 0.75rem; color: var(--accent-secondary);">📊 Weakness Tracker</h4>
-          <p>Every card you answer incorrectly is tracked. The app highlights your weakest topics (like 'Thermodynamics' or 'Plant Kingdom') on your home screen so you can't ignore them.</p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="glass-panel">
-          <h4 style="font-size: 1.25rem; margin-bottom: 0.75rem; color: var(--accent-primary);">⏱️ Focus Timer (No-Scroll)</h4>
-          <p>Locks your screen in study mode. No Instagram notifications, no Reels distraction. Just you, the timer, and active recall.</p>
-        </div>
+      <div class="showcase-content">
+        <div class="feature-tag-pill" style="color: #f87171; background: rgba(248, 113, 113, 0.1); border-color: rgba(248, 113, 113, 0.2);">SCREEN 04</div>
+        <h3>Study Core: <span style="color: #f87171;">Answer & Explanation</span></h3>
+        <p style="margin-bottom: 1.5rem;">
+          Once flipped, the card reveals the correct answer and a complete, student-friendly explanation.
+        </p>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>NCERT Reference Notes:</strong> Shows the exact reference details and formula equations (formatted beautifully in LaTeX).</li>
+          <li><strong>Self-Rating Buttons:</strong> Rate your recall strength (Again, Hard, Good, Easy). This feeds into the SM-2 algorithm to schedule the card's next review time.</li>
+          <li><strong>Weakness Logging:</strong> Any card rated "Again" is automatically added to your home screen weakness checklist so you don't ignore it.</li>
+        </ul>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- 5. PRACTICE ARENA -->
+    <section class="grid-2 feature-page-card" id="page-practice">
+      <div class="showcase-content">
+        <div class="feature-tag-pill" style="color: #60a5fa; background: rgba(96, 165, 250, 0.1); border-color: rgba(96, 165, 250, 0.2);">SCREEN 05</div>
+        <h3>MCQ Practice Arena</h3>
+        <p style="margin-bottom: 1.5rem;">
+          Need to build exam-level speed? The Practice Arena serves timed, multiple-choice questions matching direct NEET patterns.
+        </p>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Timed Sessions:</strong> Helps you train your focus under high-pressure exam speeds.</li>
+          <li><strong>Accuracy Meter:</strong> Shows real-time correct-to-wrong ratios to track your performance.</li>
+          <li><strong>Syllabus Mapping:</strong> Questions are balanced across the core chapters of Biology, Chemistry, and Physics.</li>
+        </ul>
+      </div>
+      <div class="feature-img-wrapper">
+        <img src="assets/practice.png" alt="MEDNEET MCQ Practice Arena Screenshot">
+      </div>
+    </section>
+
+    <!-- 6. FORMULAS TAB -->
+    <section class="grid-2 feature-page-card" id="page-formulas">
+      <div class="feature-img-wrapper">
+        <img src="assets/formulas.png" alt="MEDNEET Formulas Sheet Screenshot">
+      </div>
+      <div class="showcase-content">
+        <div class="feature-tag-pill" style="color: var(--accent-accent); background: rgba(245, 158, 11, 0.1); border-color: rgba(245, 158, 11, 0.2);">SCREEN 06</div>
+        <h3>Equation & Formula Sheet</h3>
+        <p style="margin-bottom: 1.5rem;">
+          A centralized directory of every important physics and chemistry equation. If you need to quickly revise before a test, this is your best friend.
+        </p>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Categorized Lists:</strong> Equations sorted neatly by subject, chapter, and topic.</li>
+          <li><strong>Speed drills:</strong> Quickly scroll and test if you remember the variables and units for each equation.</li>
+          <li><strong>Clean Math Layout:</strong> Rendered with high-quality math styling (KaTeX) for clear readability.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7. LEADERBOARD -->
+    <section class="grid-2 feature-page-card" id="page-leaderboard">
+      <div class="showcase-content">
+        <div class="feature-tag-pill">SCREEN 07</div>
+        <h3>Community Leaderboard</h3>
+        <p style="margin-bottom: 1.5rem;">
+          Healthy competition is a great motivator. The Leaderboard shows where you stand in the MEDNEET aspirant community.
+        </p>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>XP Scores:</strong> Earn experience points (XP) for reviewing flashcards and getting MCQs right.</li>
+          <li><strong>Community Rankings:</strong> See rankings of other aspirants in real-time. It keeps you inspired to study a bit more.</li>
+          <li><strong>Secure profile alias:</strong> Displays only your chosen username and streak emoji to protect your personal identity.</li>
+        </ul>
+      </div>
+      <div class="feature-img-wrapper">
+        <img src="assets/leaderboard.png" alt="MEDNEET Leaderboard Page Screenshot">
+      </div>
+    </section>
+
+    <!-- 8. USER PROFILE -->
+    <section class="grid-2 feature-page-card" id="page-profile">
+      <div class="feature-img-wrapper">
+        <img src="assets/profile.png" alt="MEDNEET User Profile Page Screenshot">
+      </div>
+      <div class="showcase-content">
+        <div class="feature-tag-pill">SCREEN 08</div>
+        <h3>Your Personal Profile</h3>
+        <p style="margin-bottom: 1.5rem;">
+          Track your overall consistency over the week and manage your account settings securely.
+        </p>
+        <ul class="showcase-list" style="margin-top: 0;">
+          <li><strong>Focus Calendar:</strong> Visually logs your daily study history and streak milestones.</li>
+          <li><strong>AI Settings:</strong> Adjust generation preferences or configure keys for custom AI tutor explanations.</li>
+          <li><strong>Simple Account Actions:</strong> Update your profile display name, verify your email, or securely request account deletion under Account Settings.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
 
   <!-- CTA section -->
-  <section class="container text-center" style="padding: 5rem 0;">
+  <section class="container text-center" style="padding: 3rem 0 5rem;">
     <div class="glass-panel" style="background: linear-gradient(135deg, rgba(139, 92, 246, 0.05), rgba(6, 182, 212, 0.05)); max-width: 800px; margin: 0 auto;">
-      <h2 style="font-size: 2.2rem; margin-bottom: 1rem; font-family: var(--font-heading);">Ready to stop studying passively?</h2>
+      <h2 style="font-size: 2.2rem; margin-bottom: 1rem;">Need any help or support?</h2>
       <p style="margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto;">
-        Join thousands of students who are using spaced repetition to dominate their test series. Download the app today.
+        Our helpdesk is always active. If you face any issues while studying, feel free to contact us.
       </p>
-      <a href="support.html" class="btn btn-primary" id="cta-btn-support">Connect with Helpdesk</a>
+      <a href="support.html" class="btn btn-primary" id="cta-btn-support">Go to Help Center</a>
     </div>
   </section>
 
@@ -169,7 +254,7 @@
           <img src="assets/icon.png" alt="MEDNEET Logo">
           <span>MEDNEET<span class="logo-highlight">.</span></span>
         </a>
-        <p>Ditch passive reading. Master NCERT Biology, Chemistry, and Physics with the ultimate active recall app.</p>
+        <p>A friendly active recall application built to help you master NCERT Biology, Chemistry, and Physics with confidence.</p>
       </div>
       <div class="footer-col">
         <h4>Product</h4>
@@ -187,20 +272,20 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Developer</h4>
+        <h4>Developer Support</h4>
         <ul>
           <li><a href="https://github.com/notesmedicose" target="_blank">notesmedicose</a></li>
-          <li><a href="mailto:support@medneet.com">support@medneet.com</a></li>
+          <li><a href="mailto:notesmedicose@gmail.com">notesmedicose@gmail.com</a></li>
         </ul>
       </div>
     </div>
     
     <div class="container footer-bottom">
-      <p>&copy; 2026 MEDNEET. Built by notesmedicose. All rights reserved.</p>
+      <p>&copy; 2026 MEDNEET. Built with care by notesmedicose. All rights reserved.</p>
       <div class="footer-bottom-links">
         <a href="privacy-policy.html">Privacy</a>
         <a href="terms-of-service.html">Terms</a>
-        <a href="support.html">Contact</a>
+        <a href="support.html">Contact Support</a>
       </div>
     </div>
   </footer>
